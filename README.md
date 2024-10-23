@@ -1,29 +1,7 @@
 # Understanding Particle Dynamics for Manipulating fluids and semi-fluids
 
-**ICLR 2019**
-[[website]](http://dpi.csail.mit.edu/) [[paper]](http://dpi.csail.mit.edu/dpi-paper.pdf) [[video]](https://www.youtube.com/watch?v=FrPpP7aW3Lg)
-
-## Demo
-
-### Simulation
-
-Rollout from our learned model
-
-![](imgs/sim_FluidFall.gif)  ![](imgs/sim_BoxBath.gif)
-
-![](imgs/sim_FluidShake.gif)  ![](imgs/sim_RiceGrip.gif)
-
-## Updates
-
-**(2020-9-8) An improved version of DPI-Net**
-
-You may also take a look at the following repo that we released for training and evaluating the particle dynamics networks, where we made some modifications on top of DPI-Net to make long-term predictions more stable.
-
-[https://github.com/YunzhuLi/VGPL-Dynamics-Prior](https://github.com/YunzhuLi/VGPL-Dynamics-Prior)
-
-This section discussed the difference between DPI-Net and VGPL-Dynamics-Prior.
-
-[https://github.com/YunzhuLi/VGPL-Dynamics-Prior#difference-between-this-repo-and-dpi-net](https://github.com/YunzhuLi/VGPL-Dynamics-Prior#difference-between-this-repo-and-dpi-net)
+**Link for the implemented paper - **
+ [[paper]](http://dpi.csail.mit.edu/dpi-paper.pdf)
 
 ## Note -  Install the PyFlex github repo as it will be used extewnsively in this project
 
@@ -82,15 +60,3 @@ You can use the following command to train from scratch. **Note that if you are 
     bash scripts/train_BoxBath.sh
     bash scripts/train_FluidShake.sh
     bash scripts/train_RiceGrip.sh
-
-## Citing DPI-Net
-
-If you find this codebase useful in your research, please consider citing:
-
-    @inproceedings{li2019learning,
-        Title={Learning Particle Dynamics for Manipulating Rigid Bodies, Deformable Objects, and Fluids},
-        Author={Li, Yunzhu and Wu, Jiajun and Tedrake, Russ and Tenenbaum, Joshua B and Torralba, Antonio},
-        Booktitle = {ICLR},
-        Year = {2019}
-    }
-
