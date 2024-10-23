@@ -3,7 +3,6 @@
 **Link for the implemented paper - **
  [[paper]](http://dpi.csail.mit.edu/dpi-paper.pdf)
 
-## Note -  Install the PyFlex github repo as it will be used extewnsively in this project
 
 ## Installation
 
@@ -19,7 +18,7 @@ For Conda users, we provide an installation script:
 ```
 bash ./scripts/conda_deps.sh
 ```
-
+### Note -  Install the PyFlex github repo as it will be used extewnsively in this project
 ### Install PyFleX
 
 Add environment variables
