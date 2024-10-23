@@ -1,6 +1,4 @@
-# Learning Particle Dynamics for Manipulating Rigid Bodies, Deformable Objects, and Fluids
-
-Yunzhu Li, Jiajun Wu, Russ Tedrake, Joshua B. Tenenbaum, Antonio Torralba 
+# Understanding Particle Dynamics for Manipulating fluids and semi-fluids
 
 **ICLR 2019**
 [[website]](http://dpi.csail.mit.edu/) [[paper]](http://dpi.csail.mit.edu/dpi-paper.pdf) [[video]](https://www.youtube.com/watch?v=FrPpP7aW3Lg)
@@ -26,6 +24,8 @@ You may also take a look at the following repo that we released for training and
 This section discussed the difference between DPI-Net and VGPL-Dynamics-Prior.
 
 [https://github.com/YunzhuLi/VGPL-Dynamics-Prior#difference-between-this-repo-and-dpi-net](https://github.com/YunzhuLi/VGPL-Dynamics-Prior#difference-between-this-repo-and-dpi-net)
+
+## Note -  Install the PyFlex github repo as it will be used extewnsively in this project
 
 ## Installation
 
