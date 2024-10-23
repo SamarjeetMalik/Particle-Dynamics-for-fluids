@@ -1,6 +1,6 @@
 # Understanding Particle Dynamics for Manipulating fluids and semi-fluids
 
-**Link for the implemented paper - **
+** Link for the implemented paper - **
  [[paper]](http://dpi.csail.mit.edu/dpi-paper.pdf)
 
 
